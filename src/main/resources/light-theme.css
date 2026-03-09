@@ -1,0 +1,42 @@
+.root.light {
+    -fx-background-color: #E4E7EB;
+}
+
+.root.light .label {
+    -fx-text-fill: #1A1A1A;
+}
+
+.root.light .text-field {
+    -fx-background-color: #F8F9FB;
+    -fx-text-fill: #1A1A1A;
+    -fx-border-color: #9FA6B2;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
+
+.root.light .text-field:focused {
+    -fx-border-color: #3A82F7;
+}
+
+.root.light .button {
+    -fx-background-color: #3A82F7;
+    -fx-text-fill: white;
+}
+
+.root.light .button:hover {
+    -fx-background-color: #2F6FDC;
+}
+
+.root.light .list-view {
+    -fx-background-color: #F8F9FB;
+    -fx-control-inner-background: #F8F9FB;
+    -fx-border-color: #9FA6B2;
+    -fx-border-width: 1.5;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
+
+.root.light .error {
+    -fx-text-fill: #ff4d4d;
+}

@@ -1,0 +1,36 @@
+.root.dark {
+    -fx-background-color: #121212;
+}
+
+.root.dark .label {
+    -fx-text-fill: #FFFFFF;
+}
+
+.root.dark .text-field {
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-color: #2A2A2A;
+}
+
+.root.dark .button {
+    -fx-background-color: #3A82F7;
+    -fx-text-fill: white;
+}
+
+.root.dark .list-view {
+    -fx-background-color: #1E1E1E;
+    -fx-control-inner-background: #1E1E1E;
+    -fx-text-fill: white;
+}
+
+.root.dark .button:hover {
+    -fx-background-color: #4C8DF8;
+}
+
+.dark .theme-button:hover {
+    -fx-background-color: rgba(255,255,255,0.15);
+}
+
+.root.dark .error {
+    -fx-text-fill: #ff4d4d;
+}
